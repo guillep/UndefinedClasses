@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "UndefinedClasses",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"className",
+		"superClassName",
+		"originalString",
+		"packageName"
+	],
+	"name" : "MinimalClassParser",
+	"type" : "normal"
+}
