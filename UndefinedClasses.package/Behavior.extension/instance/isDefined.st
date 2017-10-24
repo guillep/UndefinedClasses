@@ -1,4 +1,4 @@
 *UndefinedClasses
 isDefined
 	
-	^ self isUndefined not
+	^ self isUndefinedSubclass not

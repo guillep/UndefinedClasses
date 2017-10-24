@@ -1,4 +1,4 @@
 tests
 testDefinedClassIsUndefined
 
-	self deny: Object isUndefined
+	self deny: Object isUndefinedSubclass

@@ -5,4 +5,4 @@ testUndefinedClassIsUndefined
 	self assertClassDoesNotExist: #Foo.
 
 	undefinedClass := UndefinedClass createUndefinedClassNamed: #Foo package: #Foo.
-	self assert: undefinedClass isUndefined
+	self assert: undefinedClass isUndefinedSubclass

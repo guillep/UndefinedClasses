@@ -6,4 +6,4 @@ testClassWithUndefinedSuperclassNameHasUndefinedSuperclass
 	
 	class := self createClassFromDefinitionString: self undefinedDefinition.
 	
-	self assert: class superclass isUndefined
+	self assert: class superclass isUndefinedSubclass
