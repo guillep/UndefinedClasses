@@ -1,0 +1,3 @@
+*UndefinedClassesSYSTEMPATCH
+doWarnAboutDependencies
+	ShouldWarnAboutDependencies := true

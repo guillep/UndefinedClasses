@@ -1,0 +1,3 @@
+*UndefinedClassesSYSTEMPATCH
+shouldWarnAboutDependencies
+	^ self class shouldWarnAboutDependencies

@@ -1,3 +1,0 @@
-*UndefinedClassesSYSTEMPATCH
-doWarnAboutDepencies
-	ShouldWarnAboutDepencies := true

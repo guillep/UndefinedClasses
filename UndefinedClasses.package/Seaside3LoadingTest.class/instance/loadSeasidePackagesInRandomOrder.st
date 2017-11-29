@@ -6,7 +6,7 @@ loadSeasidePackagesInRandomOrder
 
 	"disable some MC stuff before loading"
 	MCMethodDefinition initializersEnabled: false.
-     MCPackageLoader doNotWarnAboutDepencies.
+     MCPackageLoader doNotWarnAboutDependencies.
 	
 	"load all packages"
 	shuffledPackagesToLoad := self seasidePackagesToLoad shuffle.

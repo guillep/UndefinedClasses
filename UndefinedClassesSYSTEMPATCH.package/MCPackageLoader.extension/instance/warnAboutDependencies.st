@@ -1,4 +1,4 @@
 *UndefinedClassesSYSTEMPATCH
 warnAboutDependencies 
-	ShouldWarnAboutDepencies ifTrue: [ 
+	self shouldWarnAboutDependencies ifTrue: [ 
 		self notify: self dependencyWarning  ]
