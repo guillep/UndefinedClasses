@@ -5,7 +5,7 @@ privateCleanupSubclasses
 	correctUndefinedClasses := UndefinedClass subclasses select: [ :c | c environment == Smalltalk globals ].
 	incorrectUndefinedClasses := WeakArray with: (UndefinedClass subclasses select: [ :c | c environment == Smalltalk globals ]).
 	UndefinedClass subclasses: correctUndefinedClasses.
-	Smalltalk garbageCollect.
+	Smalltalk garbageCollectMost.
 	self assert: (incorrectUndefinedClasses allSatisfy: #isNil)
 	
 	
