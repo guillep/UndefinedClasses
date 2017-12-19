@@ -10,7 +10,7 @@ createClass
 		ifFalse: [ Smalltalk globals
 						at: superclassName
 						ifAbsent: [ UndefinedClass createUndefinedClassNamed: superclassName package: category ] ].
-	^ [ PharoClassInstaller
+	^ [ Smalltalk classInstaller
 		make: [ :builder | 
 			builder
 				superclass: superClass;
